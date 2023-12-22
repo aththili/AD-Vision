@@ -1,4 +1,11 @@
-      var chatbox = document.getElementById(&#39;fb-customer-chat&#39;);
+<!-- Messenger Chat plugin Code -->
+    <div id='fb-root'/>
+
+    <!-- Your Chat plugin code -->
+    <div class='fb-customerchat' id='fb-customer-chat'>
+    </div>
+
+var chatbox = document.getElementById(&#39;fb-customer-chat&#39;);
       chatbox.setAttribute(&quot;page_id&quot;, &quot;108831684989529&quot;);
       chatbox.setAttribute(&quot;attribution&quot;, &quot;biz_inbox&quot;);
     </script>
