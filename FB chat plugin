@@ -1,4 +1,3 @@
-<script>
       var chatbox = document.getElementById(&#39;fb-customer-chat&#39;);
       chatbox.setAttribute(&quot;page_id&quot;, &quot;108831684989529&quot;);
       chatbox.setAttribute(&quot;attribution&quot;, &quot;biz_inbox&quot;);
@@ -20,4 +19,3 @@
         js.src = &#39;https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js&#39;;
         fjs.parentNode.insertBefore(js, fjs);
       }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));
-    </script> 
